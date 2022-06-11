@@ -1,18 +1,18 @@
 import React from 'react';
 import About from './components/About'
 import Nav from './components/Nav';
+import Gallery from './components/Gallery'
 import './App.css';
 
 function App() {
   return (
-    
+    <div>
+      <Nav></Nav>
       <main>
-        <About>
-        <section className="my-5">
-      <h1 id="about">Who am I?</h1>
-    </section>
-        </About>
+        <Gallery></Gallery>
+        <About></About>
       </main>
+    </div>
     
   );
 }
